@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow logs
+logs/
+airflow.log
+*.log
+
+# Env
+.env
+.env.*
+
+# Data output files
+data/
+warehouse/
+*.csv
+*.json
+
+# System
+.DS_Store
