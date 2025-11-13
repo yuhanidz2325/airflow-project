@@ -1,21 +1,13 @@
-# Python
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# Airflow logs
+# Ignore Airflow logs
 logs/
 airflow.log
 *.log
 
-# Env
+# Ignore environment and config files
 .env
-.env.*
-
-# Data output files
-data/
-warehouse/
-*.csv
-*.json
-
-# System
-.DS_Store
+*.db
+*.sqlite
